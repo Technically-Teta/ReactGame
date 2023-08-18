@@ -9,13 +9,13 @@ const handleDropdownChange = (event)=>{
 
 return(
     <div>
-        <p>Please take our short survey and let us know your experience after playing our game</p>
+        <p>Please take our short survey and let us know your feedback!</p>
         <label>
             Select an option:
             <select value={selectedOption} onChange={handleDropdownChange}>
-            <option value = "The game was enjoyable"> Option 1</option>  
-            <option value = "The game was just ok"> Option 2</option>
-            <option value = "The game was bad">Option 2</option>
+            <option value = "Option 1"> The game was enjoyable</option>  
+            <option value = "Option 2">The game was just ok</option>
+            <option value = "Option 3">The game was bad</option>
            </select>
         </label>
     </div>
