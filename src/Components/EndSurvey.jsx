@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-export default  function Survey () {
+export default  function EndSurvey () {
 const [selectedOption, setSelectedOption] = useState("option1");
 
 const handleDropdownChange = (event)=>{
