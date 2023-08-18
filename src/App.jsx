@@ -67,7 +67,7 @@ function App() {
   ));
   return (
     <main>
-      <h1 className="title">Tenzies</h1>
+      <h1 className="title">Match + Roll</h1>
       {tenzies === true && <Confetti />}
       <p className="instructions">
         Roll until all dice are the same. Click each die to freeze it at its
